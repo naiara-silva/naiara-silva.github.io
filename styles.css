@@ -1324,3 +1324,24 @@ footer {
     display: block;
     animation: fadeIn 0.5s ease forwards;
 }
+
+
+.language-switcher {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.language-switcher a {
+    color: #666;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+
+.language-switcher a.active {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+}

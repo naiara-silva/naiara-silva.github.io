@@ -4,22 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naiara Silva | Psicóloga - Terapia Online</title>
-    <meta name="description" content="Psicóloga especializada em atendimento online. Terapia baseada em neurociência e análise do comportamento para adultos.">
-    <meta name="keywords" content="psicóloga online, terapia online, psicologia, europa, exterior, atendimento especializado, análise do comportamento, neurociência, terapia para adultos">
+    <meta name="description" content="Psicóloga especializada em atendimento online para brasileiros no exterior. Terapia baseada em neurociência e análise do comportamento para adaptação cultural e bem-estar emocional.">
+    <meta name="keywords" content="psicóloga brasileiros exterior, terapia online brasileiros, psicologia expatriados, atendimento psicológico português, adaptação cultural, solidão no exterior, ansiedade mudança país">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://naiarasilva.com/" />
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Naiara Silva | Psicóloga - Terapia Online para Brasileiros no Exterior">
+    <meta property="og:description" content="Atendimento psicológico online para brasileiros que vivem no exterior. Apoio especializado para adaptação cultural e bem-estar emocional.">
+    <meta property="og:image" content="https://naiarasilva.com/images/naiara-profile.jpg">
+    <meta property="og:url" content="https://naiarasilva.com">
+    
+    <!-- Language alternates -->
+    <link rel="alternate" hreflang="pt-br" href="https://naiarasilva.com/" />
+    <link rel="alternate" hreflang="en" href="https://naiarasilva.com/en/" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NTBQ4PJ3MP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NTBQ4PJ3MP');
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PsychologicalTreatment",
+      "name": "Naiara Silva - Psicóloga Online",
+      "description": "Atendimento psicológico online para brasileiros que vivem no exterior",
+      "provider": {
+        "@type": "Person",
+        "name": "Naiara Silva",
+        "jobTitle": "Psicóloga",
+        "telephone": "+55 (16) 99779-0883",
+        "email": "psicologia.naiarasilva@gmail.com"
+      }
+    }
+    </script>
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NTBQ4PJ3MP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NTBQ4PJ3MP');
-</script>
 
 <body>
     <header>
@@ -31,7 +58,22 @@
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#faq">Perguntas Frequentes</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact" class="nav-cta">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+        <!-- For Portuguese version (index.html) -->
+        <div class="language-switcher">
+            <a href="https://naiarasilva.com/" hreflang="pt-br" class="active">PT</a> | 
+            <a href="https://naiarasilva.com/en/" hreflang="en">EN</a>
+        </div>
+
     </header>
 
     <section class="hero">
@@ -55,7 +97,6 @@
         </div>
     </section>
 
-
     <section class="section2">
         <div class="container">
             <div class="hero-content">
@@ -68,7 +109,7 @@
         </div>
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <div class="about-content">
                 <div class="about-image">
@@ -83,7 +124,6 @@
                     <h3>Sobre mim</h3>
 
                     <p>Formada em Psicologia pela Universidade Federal de São Carlos (UFSCar) em 2017, com ênfase em Neurociência e Análise do Comportamento, descobri na graduação uma paixão que me levaria muito além das fronteiras. </p>
-                    
                     <p>Aos 20 anos, realizei meu primeiro intercâmbio acadêmico, cursando dois semestres na Universidade do Porto, em Portugal. Após a graduação, passei alguns anos entre atendimentos clínicos e psicologia organizacional, até que uma oportunidade profissional me levou a Berlim, na Alemanha, onde atuei em uma grande multinacional por dois anos. Atualmente, estou cursando um mestrado duplo diploma, parte na Espanha e parte na Itália, o que tem me permitido aprofundar conhecimentos na área de psicologia social, além de retomar meu interesse pela prática clínica.</p>
                     
                     <h3>Sobre a abordagem</h3>
@@ -96,7 +136,7 @@
         </div>
     </section>
 
-    <section class="services", id="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="section-header">
                 <h2>A terapia vai te ajudar a:</h2>
@@ -130,6 +170,81 @@
         </div>
     </section>
 
+    <section class="testimonials">
+        <div class="container">
+            <h2>O que dizem meus pacientes</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"A terapia com a Naiara tem sido fundamental para minha adaptação em Portugal. Finalmente encontrei alguém que entende os desafios de viver fora do Brasil."</p>
+                    <span class="testimonial-author">M.C., Lisboa</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Mesmo a milhares de quilômetros de distância, as sessões online me dão a sensação de estar em casa. A flexibilidade de horários também ajuda muito com a diferença de fuso."</p>
+                    <span class="testimonial-author">R.S., Berlim</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Quando cheguei à Itália, tudo parecia um caos emocional. A terapia me ajudou a organizar os sentimentos e encontrar equilíbrio nessa nova fase."</p>
+                    <span class="testimonial-author">A.P., Milão</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3>Como funciona a terapia online?</h3>
+                <p>As sessões são realizadas por videoconferência em plataforma segura, com duração de 50 minutos, adaptadas ao seu fuso horário.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Qual o valor das sessões?</h3>
+                <p>Os valores variam de acordo com o país onde você reside. Entre em contato para conversarmos sobre as opções disponíveis.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Meu plano de saúde internacional cobre as sessões?</h3>
+                <p>Trabalho com reembolso para diversos planos internacionais. Posso fornecer os recibos necessários para seu reembolso.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Com que frequência devo fazer terapia?</h3>
+                <p>O recomendado é uma sessão semanal, especialmente no início do processo. Com o tempo, podemos ajustar a frequência conforme suas necessidades.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Quanto tempo dura o processo terapêutico?</h3>
+                <p>A duração varia de acordo com cada pessoa e seus objetivos. Alguns se beneficiam de processos mais curtos (3-6 meses), enquanto outros preferem um acompanhamento mais longo. Avaliamos juntos o melhor caminho para você.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como sei se a terapia online é eficaz?</h3>
+                <p>Pesquisas científicas mostram que a terapia online tem eficácia comparável à presencial. A chave está na qualidade da conexão terapêutica, que pode ser estabelecida independentemente do formato.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-preview" id="blog">
+        <div class="container">
+            <h2>Blog: Vivendo no Exterior</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>5 Estratégias para Lidar com a Saudade de Casa</h3>
+                    <p>Dicas práticas para transformar a saudade em um sentimento mais leve e menos paralisante...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Choque Cultural: Como Superar os Primeiros Meses</h3>
+                    <p>Entenda as fases de adaptação cultural e como atravessá-las com mais equilíbrio emocional...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Construindo Relacionamentos Significativos em um Novo País</h3>
+                    <p>Como criar conexões genuínas quando você está longe da sua rede de apoio...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+            </div>
+            <div class="blog-cta">
+                <a href="#" class="cta-secondary">Ver todos os artigos</a>
+            </div>
+        </div>
+    </section>
 
     <section class="cta-section">
         <div class="container">
@@ -140,7 +255,8 @@
             </div>
         </div>
     </section>
-    <footer>
+
+    <footer id="contact">
         <div class="container footer-container">
             <div class="footer-content">
                 <div class="footer-info">
